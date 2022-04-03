@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# To Use Hero Icon
+
+import { BeakerIcon } from '@heroicons/react/solid'
+
+function MyComponent() {
+return (
+
+<div>
+<BeakerIcon className="h-5 w-5 text-blue-500"/>
+<p>...</p>
+</div>
+)
+}
+
+# TO use Font Awesom
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+const element = <FontAwesomeIcon icon={faCoffee} />
