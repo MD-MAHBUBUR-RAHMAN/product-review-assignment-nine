@@ -1,9 +1,14 @@
 import React from "react";
+import useReview from "../hook/useReview";
+import Review from "../Review/Review";
 
 const Reviews = () => {
+  const [reviews] = useReview();
   return (
-    <div>
-      <h2>People Who Review this book!</h2>
+    <div className="grid md:grid-cols-3 gap-4 bg-gray-300 mt-[-36px]">
+      {reviews.map((review) => (
+        <Review key={review.id} review={review} />
+      ))}
     </div>
   );
 };
