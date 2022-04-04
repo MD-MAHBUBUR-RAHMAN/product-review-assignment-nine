@@ -3,7 +3,7 @@ import React from "react";
 const Notfound = () => {
   return (
     <div>
-      <h2>Not Found the Page You search</h2>
+      <img className="mx-auto" src={require("../../found1.jpg")} alt="" />
     </div>
   );
 };
