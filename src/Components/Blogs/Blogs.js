@@ -3,7 +3,7 @@ import React from "react";
 const Blogs = () => {
   return (
     <article className="grid md:grid-cols-2 gap-5">
-      <div className="p-4 border-2 m-4 text-justify">
+      <div className="p-4 border-2 m-4 text-justify shadow-xl">
         <h1 className="text-blue-700  font-bold p-4 ">Context Api</h1>
         <p>
           Context provides a way to pass data through the component tree without
@@ -18,7 +18,7 @@ const Blogs = () => {
           as it so happens is a component that consumes and uses the state
         </p>
       </div>
-      <div className="p-4 border-2 m-4 text-justify">
+      <div className="p-4 border-2 m-4 text-justify shadow-xl">
         <h5 className="text-blue-700  font-bold p-4 ">Semantic Elemement</h5>
         <p>
           HTML was originally created as a markup language to describe documents
@@ -41,7 +41,7 @@ const Blogs = () => {
           etc
         </p>
       </div>
-      <div className="p-4 border-2 m-4 text-justify">
+      <div className="p-4 border-2 m-4 text-justify shadow-xl">
         <h5 className="text-blue-700  font-bold p-4 ">
           Block-level Elements and Inline Elements
         </h5>

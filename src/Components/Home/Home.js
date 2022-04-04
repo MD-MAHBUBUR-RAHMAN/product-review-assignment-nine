@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <h1 className="font-bold text-xl text-cyan-600 ">Haelend's Ballad</h1>
       <p className="text-sky-700 mt-4">By Ian V. Conrey</p>
-      <div className="grid grid-cols-2 my-10">
+      <div className="grid md:grid-cols-2 my-10">
         <div className="my-auto">
           <h2 className="font-bold text-xl text-cyan-600 ">
             Best book for modern Situation
@@ -22,7 +22,7 @@ const Home = () => {
             betrays them
           </p>
         </div>
-        <img className="" src={require("../../books.jpg1.png")} alt="" />
+        <img src={require("../../books.jpg1.png")} alt="" />
       </div>
       <div className="mt-10">
         <h1 className="font-bold text-xl text-cyan-600 ">Customers Review</h1>
@@ -31,7 +31,7 @@ const Home = () => {
             <Review key={review.id} review={review} />
           ))}
         </div>
-        <button className="text-sky-700 font-bold bg-orange-400 my-8 py-2 px-4 rounded-lg">
+        <button className="text-sky-700 font-bold bg-orange-400 my-8 py-2 px-4 rounded-lg ease-in duration-300">
           <Link to="/reviews">SEE ALL REVIEW</Link>
         </button>
       </div>
